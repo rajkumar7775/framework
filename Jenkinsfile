@@ -8,7 +8,7 @@ pipeline {
 			  }
 			  
 			  environment {
-			                Name = "rajkumar"
+			                NAME = "rajkumar"
 					PROF = "Devops"
 					BATCH = "batch-2"
 			  }
@@ -16,7 +16,7 @@ pipeline {
 				stages {
 				    stage('name') {
 					    steps {
-						   echo "{$Name}"
+						   echo "{$NAME}"
 						   
 						   }
 						   }
