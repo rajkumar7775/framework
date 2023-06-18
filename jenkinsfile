@@ -2,15 +2,16 @@ pipeline {
      agent {
 	   node {
 	          label "built-in"
-			  customWorkspace "/root/jenkins"
+		  customWorkspace "/root/jenkins"
 			  
 			  }
 			  }
 			  
 			  environment {
 			                Name = "rajkumar"
-							PROF = "Devops"
-							BATCH = "batch-2"
+					PROF = "Devops"
+					BATCH = "batch-2"
+                                       }
 							
 				stages {
 				    stage('name') {
