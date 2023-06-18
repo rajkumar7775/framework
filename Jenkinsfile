@@ -1,11 +1,5 @@
 pipeline {
-     agent {
-	   node {
-	          label "built-in"
-			 customWorkspace "/root/jenkins"
-			  
-			  }
-			  }
+     agent any
 			  
 			  environment {
 			                NAME = "rajkumar"
